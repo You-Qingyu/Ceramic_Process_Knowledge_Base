@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>陶瓷工艺知识库</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="landing" id="landing">
+    <section class="landing-hero">
+      <p class="landing-eyebrow">CERAMIC CRAFT KNOWLEDGE BASE</p>
+      <h1>陶瓷工艺知识库</h1>
+      <p class="landing-tagline">面向公众 · 公开免费的陶瓷工艺百科知识库</p>
+      <div class="landing-hint"><span class="landing-arrow">↓</span>向下滚动，了解本站<i>Scroll to explore</i></div>
+    </section>
+
+    <section class="landing-block">
+      <div class="landing-card zh">
+        <h2>关于本站</h2>
+        <p>「陶瓷工艺知识库」是一部面向公众、公开免费的陶瓷工艺百科知识库，内容整理自实际调研与公开网络资料，持续收录、自由使用。知识体系覆盖陶瓷工艺全流程——从粘土、石英、长石等原料，到拉坯、注浆、压制成型；从施釉与青花、颜色釉等装饰技法，到烧成制度与各类窑炉；再到名窑名瓷、传统工艺、常见缺陷与先进陶瓷。站内分类体系精确，层层聚焦；快捷检索输入即达，标题、摘要、标签、正文全方位匹配。注册登录后即可投稿分享，经管理员审核收录并署名；还可以在交流论坛发帖讨论，或向右下角的 AI 智能客服提问。所有资源公开免费，欢迎学习、引用与传播。</p>
+      </div>
+      <div class="landing-card en">
+        <h2>About This Site</h2>
+        <p>The Ceramic Craft Knowledge Base is a public, free-of-charge encyclopedia of ceramic craftsmanship, openly compiled from publicly available materials and free for everyone to use. Its knowledge system spans the complete workflow — raw materials such as clay, quartz and feldspar; forming by throwing, slip casting and pressing; glazing and decoration in underglaze blue and monochrome glazes; firing schedules and kiln types; as well as famous kilns and wares, traditional crafts, common defects and advanced ceramics. Categories are precisely structured so you can narrow down quickly, and fast full-text search matches titles, summaries, tags and body text the moment you type. Register to contribute entries — published after an admin review and credited to you — join the forum discussions, or ask the AI assistant in the bottom-right corner. All resources are open and free to use, share and reference.</p>
+      </div>
+    </section>
+
+    <section class="landing-block">
+      <div class="landing-card zh">
+        <h2>站内功能</h2>
+        <ul>
+          <li>快捷检索：全文搜索覆盖标题、摘要、标签与正文，关键词高亮，输入即达</li>
+          <li>精确分类：体系化分类导航层层聚焦，从原料到烧成快速定位</li>
+          <li>覆盖面广：工艺原理、操作要点、装饰技法、名窑名瓷、常见缺陷与先进陶瓷尽在其中</li>
+          <li>公开免费：面向所有人开放，无需付费，可自由浏览、学习与传播</li>
+          <li>投稿共建：注册即可投稿，经管理员审核收录并署名</li>
+          <li>社区交流：论坛发帖 / 评论 / 点赞 / 举报，AI 智能客服随时解答</li>
+        </ul>
+      </div>
+      <div class="landing-card en">
+        <h2>Features</h2>
+        <ul>
+          <li>Fast search: full-text matching across titles, summaries, tags and body text, with keyword highlighting</li>
+          <li>Precise taxonomy: a structured category tree that narrows down from raw materials to firing</li>
+          <li>Broad coverage: process principles, practical steps, decoration techniques, famous wares, defects and advanced ceramics</li>
+          <li>Open and free: open to everyone at no cost — browse, learn and share freely</li>
+          <li>Contribute: register to submit entries; published after admin review with credit</li>
+          <li>Community: forum posting, comments, likes and reports, plus an AI assistant on call</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="landing-cta">
+      <button class="btn primary landing-enter" data-action="enter-site">进入网站 →</button>
+      <p class="landing-cta-en">Enter the Site</p>
+      <p class="landing-cta-tip">快捷检索 · 精确分类 · 全流程覆盖 · 公开免费</p>
+    </section>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/">
+        <span class="brand-mark">瓷</span>
+        <span class="brand-text">
+          <strong>陶瓷工艺知识库</strong>
+          <small>Ceramic Craft Knowledge Base</small>
+        </span>
+      </a>
+      <nav class="header-nav" id="header-nav"></nav>
+      <div class="search-box">
+        <input id="search-input" type="search" placeholder="搜索知识条目，如：青花 / 还原焰 / 等静压 / 龙泉窑…" autocomplete="off" />
+        <button id="search-btn" type="button">搜索</button>
+      </div>
+      <div class="auth-area" id="auth-area"></div>
+      <div class="header-meta" id="header-meta"></div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar"></aside>
+    <main class="main" id="main">
+      <div class="loading">正在加载知识库…</div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <span id="footer-meta">陶瓷工艺知识库 v0.1.0 · </span>
+    <span>内容整理自实际调研与公开网络资料，仅作学习参考</span>
+  </footer>
+
+  <div class="chat-widget" id="chat-widget"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

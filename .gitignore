@@ -1,0 +1,34 @@
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# API/密钥/凭证
+config/secrets.yml
+config/api_keys.json
+api_keys.py
+credentials.json
+serviceAccountKey.json
+*.pem
+*.key
+*.p12
+ai.config.json
+
+# 构建产物（单文件版 HTML，内嵌 API key，勿提交）
+dist/
+
+# 运行时数据（账号/投稿/论坛，首次启动自动生成）
+data/runtime/
+
+# 知识生成缓存（换机需先跑 tools/gen-knowledge.js 才能 merge）
+tools/generated/
+
+# 日志
+*.log
+
+# 其他
+__pycache__/
+node_modules/
+.DS_Store
+.idea/
+.vscode/

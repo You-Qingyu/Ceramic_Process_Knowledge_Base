@@ -1,0 +1,11 @@
+{
+  "name": "ceramic-knowledge-base",
+  "version": "0.2.0",
+  "private": true,
+  "description": "陶瓷工艺知识库 - 本地知识库网站，支持账号注册登录、投稿与管理员审核",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/build.js && node tests/test-api.js && node tests/test-forum.js && node tests/test-review.js && node tests/test-chat.js && node tests/test-render.js && node tests/test-singlefile.js && node tests/test-ui.js"
+  }
+}

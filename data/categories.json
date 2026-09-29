@@ -1,0 +1,106 @@
+{
+ "meta": {
+  "name": "陶瓷工艺知识库",
+  "version": "0.1.0",
+  "updated": "2026-09-27",
+  "description": "本站从实际调研和公开网络资料中收集整理陶瓷工艺知识，全公开浏览、可准确检索、持续收录投稿中。",
+  "note": "内容整理自公开网页，仅作学习参考，来源见各条目 sources 字段。"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "name": "概述与历史",
+   "icon": "🏺",
+   "desc": "陶瓷的定义、分类与中国陶瓷发展脉络",
+   "file": "entries/overview.json"
+  },
+  {
+   "id": "materials",
+   "name": "原料与泥料",
+   "icon": "⛰️",
+   "desc": "粘土、瓷石、长石、石英与坯料制备",
+   "file": "entries/materials.json"
+  },
+  {
+   "id": "forming",
+   "name": "成型工艺",
+   "icon": "🌀",
+   "desc": "可塑、注浆、压制成型等成型方法",
+   "file": "entries/forming.json"
+  },
+  {
+   "id": "drying",
+   "name": "干燥工艺",
+   "icon": "🌬️",
+   "desc": "坯体干燥原理、方法与干燥缺陷",
+   "file": "entries/drying.json"
+  },
+  {
+   "id": "glazing",
+   "name": "釉料与施釉",
+   "icon": "✨",
+   "desc": "釉的组成分类、釉浆制备与施釉方法",
+   "file": "entries/glazing.json"
+  },
+  {
+   "id": "decoration",
+   "name": "装饰工艺",
+   "icon": "🎨",
+   "desc": "胎装饰、釉装饰、彩绘装饰技法",
+   "file": "entries/decoration.json"
+  },
+  {
+   "id": "firing",
+   "name": "烧成工艺",
+   "icon": "🔥",
+   "desc": "烧成制度、气氛控制与物化变化",
+   "file": "entries/firing-kiln.json"
+  },
+  {
+   "id": "kiln",
+   "name": "窑炉",
+   "icon": "🏭",
+   "desc": "龙窑、隧道窑、梭式窑等窑炉类型",
+   "file": "entries/firing-kiln.json"
+  },
+  {
+   "id": "famous",
+   "name": "名窑名瓷",
+   "icon": "👑",
+   "desc": "五大名窑、龙泉、建窑、景德镇等",
+   "file": "entries/famous-crafts.json"
+  },
+  {
+   "id": "crafts",
+   "name": "传统特种工艺",
+   "icon": "🫖",
+   "desc": "宜兴紫砂、唐三彩等特色工艺",
+   "file": "entries/famous-crafts.json"
+  },
+  {
+   "id": "defects",
+   "name": "缺陷与质量",
+   "icon": "🔍",
+   "desc": "开裂、变形、起泡、针孔等缺陷分析",
+   "file": "entries/defects-advanced.json"
+  },
+  {
+   "id": "advanced",
+   "name": "先进陶瓷",
+   "icon": "🚀",
+   "desc": "结构陶瓷、功能陶瓷与特种陶瓷",
+   "file": "entries/defects-advanced.json"
+  }
+ ],
+ "entryFiles": [
+  "entries/overview.json",
+  "entries/materials.json",
+  "entries/forming.json",
+  "entries/drying.json",
+  "entries/glazing.json",
+  "entries/decoration.json",
+  "entries/firing-kiln.json",
+  "entries/famous-crafts.json",
+  "entries/defects-advanced.json"
+ ]
+}
