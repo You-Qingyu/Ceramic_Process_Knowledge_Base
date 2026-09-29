@@ -1,0 +1,39 @@
+[
+  {
+    "id": "u-admin",
+    "username": "admin",
+    "role": "admin",
+    "salt": "4adeee594911152bfa08f65241961f8a",
+    "hash": "17e5f284b35a5261e3e1d12adb7e5007428f57027a038870ddaf665a29efc987c8ac0a0af06272217e111ce27ab6867a4bdb2a5e951f38876768caa39e3fa18e",
+    "createdAt": "2026-09-27T09:01:45.397Z",
+    "contributions": 0
+  },
+  {
+    "id": "u-d0c263cc7247",
+    "username": "游庆宇",
+    "role": "admin",
+    "salt": "4ec7dff47167c6e9e91cbebe6057cc99",
+    "hash": "42f35058c9b9acc90b5d27032ca5c0de6c528adf30049c3bb5e5e39c74d2f5fbf4379d7f6c3735796cfd3d8b8a64f820d3320d751b95c616a8f74af6f0b91834",
+    "createdAt": "2026-09-27T09:14:59.111Z",
+    "contributions": 0,
+    "seedPwd": "v1"
+  },
+  {
+    "id": "u-d63c76bab2c1",
+    "username": "hsj",
+    "role": "user",
+    "salt": "2e423631d2131e2ca6b7b365198f058c",
+    "hash": "305a395a1d863dd9e0e671f2c9dd7f8404172d0639b4f93cb5552642264815b35b48047635ddb53734d982225bc9ead993fbc3e9061b41bfd88413fb63c754da",
+    "createdAt": "2026-09-27T15:08:20.869Z",
+    "contributions": 0
+  },
+  {
+    "id": "u-bb6736412d08",
+    "username": "Larry",
+    "role": "user",
+    "salt": "822818b977339afe61cee0a6ec7d9e26",
+    "hash": "5a5485131d7a52c9a301bd484f910dc94757501c2d39aa82902d0e020b5f62fb6fb0c87681e285533a3a4ac8b11ded226de369e4771043a4bdaf12dc617fd549",
+    "createdAt": "2026-09-27T15:20:09.228Z",
+    "contributions": 1
+  }
+]
